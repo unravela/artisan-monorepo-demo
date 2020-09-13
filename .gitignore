@@ -1,0 +1,4 @@
+apps/shop-ui/frontend/dist/**/*
+apps/shop-ui/frontend/node_modules/**/*
+apps/shop-ui/backend/statik/**/*
+.artisan
