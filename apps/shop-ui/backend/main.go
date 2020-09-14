@@ -1,3 +1,5 @@
+//go:generate statik -src=../frontend/dist
+
 package main
 
 import (

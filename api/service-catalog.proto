@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package shop;
+
+import "money.proto";
+import "empty.proto";
+
+// -------------------------------------------------------
+// Product catalog
+// -------------------------------------------------------
+service CatalogService {
+	rpc ListProducts(Empty) returns (ListProductsResponse) {}
+	rpc GetProduct(GetProductRequest) returns (Product) {}
+}
+
+message ListProductsResponse {
+	repeated Product products = 1;
+}
+
+message GetProductRequest {
+	string id = 1;
+}
+
+message Product {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	Money price = 5;
+}
+

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package shop;
+
+// Represent amount of money
+message Money {
+	int64 units = 1;
+	int64 nanos = 2;
+};
