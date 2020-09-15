@@ -5,3 +5,4 @@ apps/shop-ui/backend/statik/**/*
 **/*.pb.go
 **/build/**/*
 **/.gradle/**/*
+**/.idea/**/*

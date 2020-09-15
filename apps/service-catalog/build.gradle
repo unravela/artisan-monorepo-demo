@@ -110,7 +110,7 @@ sourceSets {
             srcDirs 'build/generated/source/proto/main/java'
         }
         proto {
-            srcDir 'src/main/protobuf'
+            srcDir '../../api'
         }
     }
 }
