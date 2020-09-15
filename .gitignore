@@ -3,3 +3,5 @@ apps/shop-ui/frontend/node_modules/**/*
 apps/shop-ui/backend/statik/**/*
 .artisan
 **/*.pb.go
+**/build/**/*
+**/.gradle/**/*
