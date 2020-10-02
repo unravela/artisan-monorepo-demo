@@ -1,7 +1,11 @@
-faction "@go" {
+environment "go" {
 	src = "//facts/go"
 }
 
-faction "@protobuf" {
+environment "protobuf" {
 	src = "//facts/protobuf"
+}
+
+environment "jdk11" {
+	src = "//facts/jdk11"
 }

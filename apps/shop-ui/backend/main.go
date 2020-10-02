@@ -7,11 +7,15 @@ import (
 	"net/http"
 
 	"github.com/rakyll/statik/fs"
+	"shop.com/backend/proto/shop"
 	_ "shop.com/backend/statik"
 )
 
 func main() {
 	statikFS, _ := fs.New()
+
+	lpr := shop.ListProductsResponse{}
+	log.Println(lpr)
 
 	fileServer := http.FileServer(statikFS)
 	http.Handle("/", fileServer)
