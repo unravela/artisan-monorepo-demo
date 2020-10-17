@@ -2,6 +2,7 @@ frontend/dist/**/*
 frontend/node_modules/**/*
 
 backend/statik/**/*
+backend/backend
 
 .artisan
 **/.idea/**/*
