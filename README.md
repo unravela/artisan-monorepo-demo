@@ -1,4 +1,4 @@
-# artisan-monorepo-demo
+# Vue.JS&Go monorepo demo
 
 This is a very simple showcase of monorepository managed by [Artisan](https//github.com/unravela/artisan). The frontend is Vue.JS application embedded into backend application which is written in Go.
 
