@@ -1,0 +1,10 @@
+image: docker:19.03.0
+
+services:
+    - docker:19.03.0-dind
+
+build:
+    script:
+        - apk --no-cache add curl
+        - curl -sfL https://artisan.unravela.io/install.sh | sh
+        - artisan run //backend:build
