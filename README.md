@@ -1,10 +1,12 @@
 # Vue.JS&Go monorepo demo
 
-This small demo monorepo demonstrates how you can easily combine the front end `npm` with the back end's build system, which is pure Go with simple `Makefile`.
+![Artisan](https://raw.githubusercontent.com/unravela/artisan/main/doc/assets/banner.png)
+
+This is demonstration of [Artisan](https://github.com/unravela/artisan) and how you can easily combine the front end `npm` with the backend's build system, which is pure Go with simple `Makefile`.
 
 ## How to use 
 
-Before you start, ensure you have installed [Docker](https://docs.docker.com/get-docker/) and [Artisan][https//github.com/unravela/artisan] in your environment. Then you can clone this repository.
+Before you start, ensure you have installed [Docker](https://docs.docker.com/get-docker/) and [Artisan](https//github.com/unravela/artisan) in your environment. Then you can clone this repository.
 
 ```
 git clone https://github.com/unravela/artisan-simple-demo.git
