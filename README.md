@@ -1,4 +1,4 @@
-# Vue.JS&Go monorepo demo
+# Vue.js & Go monorepo demo
 
 ![Artisan](https://raw.githubusercontent.com/unravela/artisan/main/doc/assets/banner.png)
 
